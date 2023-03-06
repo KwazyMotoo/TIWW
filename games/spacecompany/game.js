@@ -68,8 +68,9 @@ var Game = (function() {
         self.settings.update(delta);
 
         self.updateAutoSave(delta);
-
+        
         if(delta > 1) {
+            
             console.log("You have been away for " + Game.utils.getTimeDisplay(delta));
         }
     };
@@ -100,21 +101,21 @@ var Game = (function() {
 
     instance.import = function() {
         var text = $('#impexpField').val();
-        if (!text.trim()) return console.warn("No save to import provided.");
+        if (!text.trim()) return console.warn("No save to import provided. Dumbass.");
         if(text.length % 4 !== 0) {
-            console.log("String is not valid base64 encoded: " + text.length + ' (' + text.length % 4 + ')');
+            console.log("String is not valid base64 encodeddumbass: " + text.length + ' (' + text.length % 4 + ')');
             return;
         }
 
         var decompressed = LZString.decompressFromBase64(text);
         if(!decompressed) {
-            console.log("Import Game failed, could not decompress!");
+            console.log("Import Game failed, could not decompress! dumbshit.");
             return;
         }
 
         localStorage.setItem("save", decompressed);
 
-        console.log("Imported Saved Game");
+        console.log("Imported Saved Game.smartass.");
 
         window.location.reload();
     };
@@ -148,7 +149,7 @@ var Game = (function() {
         data = legacySave(data);
 
         localStorage.setItem("save",JSON.stringify(data));
-        Game.notifyInfo('Game Saved', 'Your save data has been stored in localStorage on your computer');
+        Game.notifyInfo('Game Saved', 'Your save data has been stored in localStorage on your computer fucker.');
         console.log('Game Saved');
 
         return data;
@@ -213,7 +214,7 @@ var Game = (function() {
     };
 
     instance.deleteSave = function() {
-        var deleteSave = prompt("Are you sure you want to delete this save? It is irreversible! If so, type 'DELETE' into the box.");
+        var deleteSave = prompt("Are you sure you want to delete this save? It is irreversible! If so, type 'DELETE' into the box. uwu");
 
         if(deleteSave === "DELETE") {
             localStorage.removeItem("save");
@@ -347,6 +348,8 @@ var Game = (function() {
             animate_speed: 'fast',
             addclass: "stack-bottomright",
             stack: this.noticeStack
+            Game.notifyInfo('Shit Horse.', 'Your A Fucking Shit Horse. Get The Fuck Off This Game, Shit Head.');
+        console.log('Fucked.');
         });
     };
 

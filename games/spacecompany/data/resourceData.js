@@ -40,11 +40,11 @@ Game.resourceData = (function () {
 
     instance.energy = {
         name: 'Energy',
-        desc: 'Energy is created by power sources such as steam engines, solar power and advances even to fusion power and nuclear energy. The maximum you can hold to start with is 100,000 Energy, but batteries are unlockable which can increase this.',
+        desc: 'Its WWhat Comes From Foods. And Is Used When I Heaily rail Ye Mum.',
         icon: 'energyIcon',
         category: 'energy',
-        baseCapacity: 50000,
-        unlocked: false
+        baseCapacity: 50000000,
+        unlocked: true
     };
 
     instance.plasma = {
@@ -52,26 +52,26 @@ Game.resourceData = (function () {
         desc: 'Plasma is the 4th state of matter and is used by Tier 4 machines and large space structures as an extreme power source for your company.',
         icon: 'plasmaIcon',
         category: 'energy',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 50000,
+        unlocked: true
     };
 
     instance.uranium = {
         name: 'Uranium',
-        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
+        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space. Pussy Fart.',
         icon: 'uraniumIcon',
         category: 'energy',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 50000,
+        unlocked: true
     };
 
     instance.lava = {
         name: 'Lava',
-        desc: 'Hard to handle and only found in volcanoes, Lava is one of the hardest resources to get.',
+        desc: 'Hard to handle and only found in volcanoes, Lava is one of the hardest resources to get. Makes Me Really Hard',
         icon: 'lavaIcon',
         category: 'energy',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 500000,
+        unlocked: true
     };
 
     /********************
@@ -83,25 +83,25 @@ Game.resourceData = (function () {
         desc: 'Oil is pumped up from the ground and is used to build Tier 2 resource gatherers.',
         icon: 'oilIcon',
         category: 'earth',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 500000,
+        unlocked: true
     };
 
     instance.metal = {
         name: 'Metal',
-        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.',
+        desc: 'Metal is one of the primary resources. It is used for many things, including storage upgrades, machinery and most things in space.Not As Hard As Mah Cock tho',
         icon: 'metalIcon',
         category: 'earth',
-        baseCapacity: 50,
+        baseCapacity: 50000000000000,
         unlocked: true
     };
 
     instance.gem = {
         name: 'Gem',
-        desc: 'Gems are one of the primary resources. They are used for advanced machines and for powerful tools and components. They are more useful in later game.',
+        desc: 'Gems are one of the primary resources. They are used for advanced machines and for powerful tools and components. They are more useful in later game. Not As Hard As Mah Cok Tho.',
         icon: 'gemIcon',
         category: 'earth',
-        baseCapacity: 50,
+        baseCapacity: 500000,
         unlocked: true
     };
 
@@ -110,8 +110,8 @@ Game.resourceData = (function () {
         desc: 'Charcoal is a secondary tier resource and is used by Engines to produce power for your company. 1 Charcoal is created by burning wood',
         icon: 'charcoalIcon',
         category: 'earth',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 5000000,
+        unlocked: true
     };
 
     instance.wood = {
@@ -119,7 +119,7 @@ Game.resourceData = (function () {
         desc: 'Wood is one of the primary resources. It is used more often in early game for tools and buildings.',
         icon: 'woodIcon',
         category: 'earth',
-        baseCapacity: 50,
+        baseCapacity: 5000000,
         unlocked: true
     };
 
@@ -128,8 +128,8 @@ Game.resourceData = (function () {
         desc: 'Silicon is useful for automatic mining systems of the third tier. These will be very useful in building your first wonder. Despite being a high tier resource, it is found mainly on Earth by heating sand.',
         icon: 'siliconIcon',
         category: 'earth',
-        baseCapacity: 50,
-        unlocked: false
+        baseCapacity: 500000,
+        unlocked: true
     };
 
 

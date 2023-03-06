@@ -292,10 +292,10 @@ function init() {
     }
 
     // Speed limits!
-    if(player.vx > 8)
-      player.vx = 8;
-    else if(player.vx < -8)
-      player.vx = -8;
+    if(player.vx > 15)
+      player.vx = 15;
+    else if(player.vx < -15)
+      player.vx = -15;
 
     //console.log(player.vx);
     

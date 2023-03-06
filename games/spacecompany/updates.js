@@ -30,7 +30,7 @@ Game.updates = (function(){
 	        }
 	        if(extra > 0){
 	        	var extraUpdates = {
-	        		desc: '+' + extra + ' more. Click the version number to see the full changelog.',
+	        		desc: '+' + extra + ' more. Click the version number to see the full changelog. And See How I Fucked Ye Mum.',
 	        		read: false
 	        	}
 	        	this.createDisplay(extraUpdates);
@@ -88,32 +88,32 @@ Game.updatesData = (function(){
 	var instance = {};
 
 	instance.nerfEnergyEff = {
-		desc: 'Nerfed Energy Efficiency to be 100x cheaper, but only go up to 25%',
+		desc: 'Nerfed Energy Efficiency to be 100x cheaper, but only go up to 25% Took Alot Of Energy To Fuck Ye Mum.',
 		read: false
 	};
 
 	instance.batteryEff = {
-		desc: 'Battery Efficiency Upgrade increases your battery storage by 1% (max 50)',
+		desc: 'Battery Efficiency Upgrade increases your battery storage by 1% (max 50) Ye Mum Was Very Efficient;)',
 		read: false
 	};
 
 	instance.effResearchLevel = {
-		desc: 'Changed Efficiency researches to show current level instead of next level',
+		desc: 'Changed Efficiency researches to show current level instead of next level level of how big mah ballz are.',
 		read: false
 	};
 
 	instance.buffBattEff = {
-		desc: 'Buffed Battery Efficiency to go up to 200 levels instead of 50.',
+		desc: 'Buffed Battery Efficiency to go up to 200 levels instead of 50.I Have No Jokes. Unlike my father.',
 		read: false
 	};
 
 	instance.redDestroy = {
-		desc: 'More -> Graphics Options. Added option to turn destroy buttons red.',
+		desc: 'More -> Graphics Options. Added option to turn destroy buttons red. Ur Mums Inside Was Red;)',
 		read: false
 	};
 
 	instance.nerfRocketFuelResearch = {
-		desc: 'Increased the Science cost of Rocket Fuel researches',
+		desc: 'Increased the Science cost of Rocket Fuel researches Uhm.',
 		read: false
 	};
 
