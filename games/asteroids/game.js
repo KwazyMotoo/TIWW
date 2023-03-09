@@ -430,8 +430,8 @@ Ship = function () {
 
     // limit the ship's speed
     if (Math.sqrt(this.vel.x * this.vel.x + this.vel.y * this.vel.y) > 8) {
-      this.vel.x *= 0.95;
-      this.vel.y *= 0.95;
+      this.vel.x *= 6;
+      this.vel.y *= 6;
     }
   };
 
@@ -668,7 +668,7 @@ Asteroid = function () {
           roid.points.reverse();
         }
         roid.vel.rot = Math.random() * 2 - 1;
-        roid.move(roid.scale * 3); // give them a little push
+        roid.move(roid.scale * 50); // give them a little push
         Game.sprites.push(roid);
       }
     }
